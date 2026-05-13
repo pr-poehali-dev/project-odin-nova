@@ -37,10 +37,14 @@ export default function Header() {
       >
         <div className="container py-4">
           <div className="flex items-center justify-between">
-            <a href="#" className="flex items-center">
-              <span className="text-2xl font-bold text-black dark:text-white">
-                Tail<span className="text-[#7A7FEE]">Trail</span>
-              </span>
+            <a href="#" className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-[#2ECC71] flex items-center justify-center flex-shrink-0">
+                <span className="text-xl">🐄</span>
+              </div>
+              <div className="flex flex-col leading-none">
+                <span className="text-xl font-bold text-black dark:text-white tracking-tight">TailTrail</span>
+                <span className="text-[10px] text-gray-500 dark:text-gray-400 font-normal">Умная ферма — здоровое стадо</span>
+              </div>
             </a>
 
             <div className="flex items-center space-x-4">
@@ -99,9 +103,15 @@ export default function Header() {
         <div className="fixed inset-0 z-[100] bg-black/50 md:hidden">
           <div className="fixed top-0 right-0 h-full w-[85%] max-w-sm bg-white dark:bg-[#111111] shadow-xl overflow-y-auto">
             <div className="sticky top-0 z-10 flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111]">
-              <span className="text-xl font-bold text-black dark:text-white">
-                Tail<span className="text-[#7A7FEE]">Trail</span>
-              </span>
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-8 rounded-lg bg-[#2ECC71] flex items-center justify-center flex-shrink-0">
+                  <span className="text-lg">🐄</span>
+                </div>
+                <div className="flex flex-col leading-none">
+                  <span className="text-lg font-bold text-black dark:text-white tracking-tight">TailTrail</span>
+                  <span className="text-[9px] text-gray-500 dark:text-gray-400">Умная ферма — здоровое стадо</span>
+                </div>
+              </div>
               <button
                 onClick={() => setMobileMenuOpen(false)}
                 className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
