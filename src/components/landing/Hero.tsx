@@ -39,11 +39,11 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="hidden md:block md:w-2/5 md:absolute md:right-0 md:top-0 md:bottom-0 md:flex md:items-center">
+        <div className="hidden md:flex md:w-2/5 md:absolute md:right-0 md:top-0 md:bottom-0 items-center justify-center p-6">
           <img
-            src="https://cdn.poehali.dev/projects/a14c5cf7-de79-4bc2-8029-ff07f52b6a88/files/804a801f-b409-4068-bb0e-e7bf2dc4bf36.jpg"
+            src="https://cdn.poehali.dev/projects/a14c5cf7-de79-4bc2-8029-ff07f52b6a88/files/6984a812-e0b7-427c-b2e7-c3f419e8a4ba.jpg"
             alt="TailTrail — умная ферма"
-            className="w-full h-auto md:h-full md:w-auto md:object-cover md:object-left"
+            className="w-full h-full object-cover opacity-60"
           />
         </div>
       </div>

@@ -12,14 +12,12 @@ export default function Footer() {
   return (
     <footer className="container py-8 border-t border-gray-200 dark:border-gray-800">
       <div className="flex flex-col items-center text-center">
-        <a href="#" className="flex items-center justify-center gap-3 mb-4">
-          <div className="w-10 h-10 rounded-xl bg-[#2ECC71] flex items-center justify-center flex-shrink-0">
-            <span className="text-xl">🐄</span>
-          </div>
-          <div className="flex flex-col leading-none text-left">
-            <span className="text-xl font-bold text-black dark:text-white tracking-tight">TailTrail</span>
-            <span className="text-[10px] text-gray-500 dark:text-gray-400">Умная ферма — здоровое стадо</span>
-          </div>
+        <a href="#" className="flex items-center justify-center mb-4">
+          <img
+            src="https://cdn.poehali.dev/projects/a14c5cf7-de79-4bc2-8029-ff07f52b6a88/bucket/4f602938-06e8-4be2-9d5a-ee9ab17ab6a2.jpg"
+            alt="TailTrail"
+            className="h-12 w-auto object-contain"
+          />
         </a>
         <p className="text-sm text-gray-600 dark:text-gray-400 max-w-md mx-auto mb-2">
           Умная ферма — здоровое стадо. Носимые датчики и аналитическая платформа для контроля здоровья КРС.
