@@ -25,7 +25,7 @@ export default function Footer() {
           Умная ферма — здоровое стадо. Носимые датчики и аналитическая платформа для контроля здоровья КРС.
         </p>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
-          По вопросам сотрудничества: <a href="mailto:ivanovTailTrail@gmail.com" className="text-[#7A7FEE] hover:underline">ivanovTailTrail@gmail.com</a>
+          По вопросам сотрудничества: <a href="mailto:ivanovTailTrail@gmail.com" className="text-[#2ECC71] hover:underline">ivanovTailTrail@gmail.com</a>
         </p>
 
         <p className="text-sm text-gray-500 dark:text-gray-400">

@@ -53,7 +53,7 @@ export default function Header() {
                   <li>
                     <a
                       href="#projects"
-                      className="text-black dark:text-white hover:text-[#7A7FEE] dark:hover:text-[#7A7FEE] transition-colors"
+                      className="text-black dark:text-white hover:text-[#2ECC71] dark:hover:text-[#2ECC71] transition-colors"
                     >
                       Кейсы
                     </a>
@@ -61,7 +61,7 @@ export default function Header() {
                   <li>
                     <a
                       href="#services"
-                      className="text-black dark:text-white hover:text-[#7A7FEE] dark:hover:text-[#7A7FEE] transition-colors"
+                      className="text-black dark:text-white hover:text-[#2ECC71] dark:hover:text-[#2ECC71] transition-colors"
                     >
                       Решения
                     </a>
@@ -69,7 +69,7 @@ export default function Header() {
                   <li>
                     <a
                       href="#faq"
-                      className="text-black dark:text-white hover:text-[#7A7FEE] dark:hover:text-[#7A7FEE] transition-colors"
+                      className="text-black dark:text-white hover:text-[#2ECC71] dark:hover:text-[#2ECC71] transition-colors"
                     >
                       Вопросы
                     </a>
@@ -77,7 +77,7 @@ export default function Header() {
                   <li>
                     <a
                       href="#contact"
-                      className="text-black dark:text-white hover:text-[#7A7FEE] dark:hover:text-[#7A7FEE] transition-colors"
+                      className="text-black dark:text-white hover:text-[#2ECC71] dark:hover:text-[#2ECC71] transition-colors"
                     >
                       Контакты
                     </a>
@@ -165,7 +165,7 @@ export default function Header() {
             <div className="p-4 mt-4 border-t border-gray-200 dark:border-gray-800">
               <a
                 href="#contact"
-                className="flex items-center justify-center w-full py-3 px-4 bg-[#7A7FEE] text-white rounded-lg text-base font-medium hover:bg-opacity-90 transition-colors"
+                className="flex items-center justify-center w-full py-3 px-4 bg-[#2ECC71] text-white rounded-lg text-base font-medium hover:bg-opacity-90 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Получить демо

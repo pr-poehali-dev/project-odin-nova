@@ -5,12 +5,12 @@ export default function Hero() {
     <section id="hero" className="card my-8 relative overflow-hidden shadow-md">
       <div className="p-8 md:p-10 lg:p-12 flex flex-col md:flex-row items-start">
         <div className="w-full md:w-3/5 z-10">
-          <div className="inline-flex items-center gap-2 bg-[#7A7FEE]/10 text-[#7A7FEE] text-sm font-medium px-3 py-1 rounded-full mb-4">
+          <div className="inline-flex items-center gap-2 bg-[#2ECC71]/10 text-[#2ECC71] text-sm font-medium px-3 py-1 rounded-full mb-4">
             🐄 Умная ферма — здоровое стадо
           </div>
           <h1 className="text-black dark:text-white text-4xl md:text-5xl lg:text-6xl font-medium leading-tight">
             Контроль здоровья
-            <span className="block text-[#7A7FEE] dark:text-[#7A7FEE]">КРС в реальном</span>
+            <span className="block text-[#2ECC71] dark:text-[#2ECC71]">КРС в реальном</span>
             времени
           </h1>
           <p className="my-6 text-sm md:text-base max-w-md text-gray-700 dark:text-gray-300">

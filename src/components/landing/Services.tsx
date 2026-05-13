@@ -6,21 +6,21 @@ const services = [
     title: "Ранняя диагностика болезней",
     description: "Датчики фиксируют отклонения в температуре, активности и поведении животного задолго до появления видимых симптомов — вы получаете уведомление и успеваете вмешаться.",
     icon: "HeartPulse",
-    color: "bg-[#7A7FEE]",
+    color: "bg-[#2ECC71]",
   },
   {
     id: 2,
     title: "GPS-мониторинг и геозоны",
     description: "Отслеживайте местоположение каждой головы в реальном времени. Система мгновенно сигнализирует о выходе животного за пределы установленной зоны.",
     icon: "MapPin",
-    color: "bg-[#7A7FEE]",
+    color: "bg-[#2ECC71]",
   },
   {
     id: 3,
     title: "Контроль воспроизводства",
     description: "Алгоритмы платформы автоматически определяют охоту и оптимальное время для осеменения, повышая выход телят и снижая холостые циклы.",
     icon: "BarChart3",
-    color: "bg-[#7A7FEE]",
+    color: "bg-[#2ECC71]",
   },
 ]
 
@@ -29,7 +29,7 @@ export default function Services() {
     <section id="services" className="my-20">
       <h2 className="text-black dark:text-white mb-6 text-3xl md:text-4xl lg:text-5xl font-medium leading-tight">
         Три ключевые проблемы,
-        <span className="block text-[#7A7FEE] dark:text-[#7A7FEE]">которые мы решаем</span>
+        <span className="block text-[#2ECC71] dark:text-[#2ECC71]">которые мы решаем</span>
       </h2>
       <p className="mb-12 max-w-2xl text-gray-700 dark:text-gray-300">
         Точные данные с носимых датчиков и аналитическая платформа TailTrail повышают рентабельность и биобезопасность предприятия — без зависимости от человеческого фактора.
