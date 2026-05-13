@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
 import ThemeToggle from "./ThemeToggle"
 import { useTheme } from "next-themes"
+import Logo, { LogoIcon } from "./Logo"
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -37,12 +38,8 @@ export default function Header() {
       >
         <div className="container py-4">
           <div className="flex items-center justify-between">
-            <a href="#" className="flex items-center gap-3">
-              <img
-                src="https://cdn.poehali.dev/projects/a14c5cf7-de79-4bc2-8029-ff07f52b6a88/bucket/4f602938-06e8-4be2-9d5a-ee9ab17ab6a2.jpg"
-                alt="TailTrail"
-                className="h-10 w-auto object-contain"
-              />
+            <a href="#">
+              <Logo className="h-10 w-auto" />
             </a>
 
             <div className="flex items-center space-x-4">
@@ -101,11 +98,7 @@ export default function Header() {
         <div className="fixed inset-0 z-[100] bg-black/50 md:hidden">
           <div className="fixed top-0 right-0 h-full w-[85%] max-w-sm bg-white dark:bg-[#111111] shadow-xl overflow-y-auto">
             <div className="sticky top-0 z-10 flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111]">
-              <img
-                src="https://cdn.poehali.dev/projects/a14c5cf7-de79-4bc2-8029-ff07f52b6a88/bucket/4f602938-06e8-4be2-9d5a-ee9ab17ab6a2.jpg"
-                alt="TailTrail"
-                className="h-9 w-auto object-contain"
-              />
+              <LogoIcon size={36} />
               <button
                 onClick={() => setMobileMenuOpen(false)}
                 className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"

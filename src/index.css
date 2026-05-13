@@ -46,10 +46,23 @@
     background-color: var(--background);
     color: var(--foreground);
     font-family: "Inter", system-ui, sans-serif;
+    position: relative;
   }
 
   html {
     scroll-behavior: smooth;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("https://cdn.poehali.dev/projects/a14c5cf7-de79-4bc2-8029-ff07f52b6a88/bucket/2ffe67f3-9a31-44c6-9d94-e086a269108b.png");
+    background-repeat: repeat;
+    background-size: 480px auto;
+    opacity: 0.07;
+    pointer-events: none;
+    z-index: 0;
   }
 
   h1 {
@@ -96,14 +109,14 @@
   }
 
   .card {
-    background-color: var(--card);
+    background-color: #ffffff;
     color: var(--card-foreground);
     border: 1px solid var(--card-border);
     @apply rounded-3xl overflow-hidden shadow-md;
   }
 
   .dark .card {
-    background-color: var(--card);
+    background-color: #1e1f20;
     background-image: linear-gradient(to bottom, #2d2e2f, #272829);
     position: relative;
   }

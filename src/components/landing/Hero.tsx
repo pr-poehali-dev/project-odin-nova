@@ -39,12 +39,13 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="hidden md:flex md:w-2/5 md:absolute md:right-0 md:top-0 md:bottom-0 items-center justify-center p-6">
+        <div className="hidden md:flex md:w-2/5 md:absolute md:right-0 md:top-0 md:bottom-0 items-center justify-center overflow-hidden rounded-r-3xl">
           <img
-            src="https://cdn.poehali.dev/projects/a14c5cf7-de79-4bc2-8029-ff07f52b6a88/files/6984a812-e0b7-427c-b2e7-c3f419e8a4ba.jpg"
-            alt="TailTrail — умная ферма"
-            className="w-full h-full object-cover opacity-60"
+            src="https://cdn.poehali.dev/projects/a14c5cf7-de79-4bc2-8029-ff07f52b6a88/bucket/2ffe67f3-9a31-44c6-9d94-e086a269108b.png"
+            alt=""
+            className="w-full h-full object-cover opacity-20"
           />
+          <div className="absolute inset-0 bg-gradient-to-l from-[#2ECC71]/10 to-transparent" />
         </div>
       </div>
     </section>

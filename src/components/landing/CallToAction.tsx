@@ -21,12 +21,13 @@ export default function CallToAction() {
           </div>
         </div>
 
-        <div className="hidden md:flex md:w-2/5 md:absolute md:right-0 md:top-0 md:bottom-0 items-center justify-center overflow-hidden">
+        <div className="hidden md:flex md:w-2/5 md:absolute md:right-0 md:top-0 md:bottom-0 items-center justify-center overflow-hidden rounded-r-3xl">
           <img
-            src="https://cdn.poehali.dev/projects/a14c5cf7-de79-4bc2-8029-ff07f52b6a88/files/98f9ae5d-d792-4fb1-8fed-c4e5743f61e2.jpg"
-            alt="TailTrail — здоровое стадо"
-            className="w-full h-full object-cover opacity-70"
+            src="https://cdn.poehali.dev/projects/a14c5cf7-de79-4bc2-8029-ff07f52b6a88/bucket/2ffe67f3-9a31-44c6-9d94-e086a269108b.png"
+            alt=""
+            className="w-full h-full object-cover opacity-20"
           />
+          <div className="absolute inset-0 bg-gradient-to-l from-[#2ECC71]/15 to-transparent" />
         </div>
       </div>
     </section>
