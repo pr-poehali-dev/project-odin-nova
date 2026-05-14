@@ -43,7 +43,7 @@
 
 @layer base {
   body {
-    background-color: #f7faf7;
+    background-color: var(--background);
     color: var(--foreground);
     font-family: "Inter", system-ui, sans-serif;
   }

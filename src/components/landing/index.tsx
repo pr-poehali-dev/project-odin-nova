@@ -11,7 +11,7 @@ export { Header, Hero, Projects, Services, Faq, CallToAction, Footer }
 
 export default function LandingPage({ showHeader = true, showFooter = true }: LandingPageProps) {
   return (
-    <main className="min-h-screen bg-[#f7faf7]">
+    <main className="min-h-screen bg-white dark:bg-[#111111]">
       {showHeader && <Header />}
       <div className="container pt-4">
         <Hero />

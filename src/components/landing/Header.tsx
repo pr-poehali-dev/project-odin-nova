@@ -33,7 +33,7 @@ export default function Header() {
     <>
       <header
         className={`sticky top-0 z-40 w-full transition-all duration-200 ${
-          isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100" : "bg-transparent"
+          isScrolled ? "bg-white/90 dark:bg-[#111111]/90 backdrop-blur-sm shadow-sm" : "bg-transparent"
         }`}
       >
         <div className="container py-4">
