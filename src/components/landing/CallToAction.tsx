@@ -1,33 +1,29 @@
 import ContactFormButton from "./ContactFormButton"
+import CowPattern from "./CowPattern"
 
 export default function CallToAction() {
   return (
-    <section id="contact" className="card my-20 relative overflow-hidden shadow-md">
-      <div className="p-8 md:p-10 lg:p-12 flex flex-col md:flex-row items-start">
-        <div className="w-full md:w-3/5 z-10">
-          <h2 className="text-black dark:text-white mb-6 text-3xl md:text-4xl lg:text-5xl font-medium leading-tight">
-            Начните защищать <span className="text-[#2ECC71] dark:text-[#2ECC71]">стадо</span> уже сейчас
+    <section id="contact" className="my-20 relative overflow-hidden rounded-3xl bg-white shadow-md border border-gray-100">
+      <div className="p-8 md:p-10 lg:p-14 flex flex-col md:flex-row items-center min-h-[360px]">
+        <div className="w-full md:w-3/5 z-10 relative">
+          <h2 className="text-gray-900 mb-4 text-3xl md:text-4xl font-bold leading-tight">
+            Начните защищать <span className="text-[#2ECC71]">стадо</span> уже сейчас
           </h2>
-          <p className="my-6 text-sm md:text-base max-w-md text-gray-700 dark:text-gray-300">
+          <p className="mb-5 text-base max-w-md text-gray-600 leading-relaxed">
             Оставьте заявку — наш менеджер свяжется с вами в течение рабочего дня, проведёт бесплатную консультацию и подготовит расчёт для вашего хозяйства.
           </p>
-          <div className="flex flex-col gap-2 mb-6 text-sm text-gray-600 dark:text-gray-400">
+          <div className="flex flex-col gap-2 mb-6 text-sm text-gray-600">
             <div>📧 ivanovTailTrail@gmail.com</div>
             <div>💬 Telegram: @whitecow</div>
-            <div>📞 +7 909 345 11 89 — Иван Иванов, руководитель отдела продаж</div>
+            <div>📞 +7 909 345 11 89 — Иван Иванов</div>
           </div>
-          <div>
-            <ContactFormButton />
-          </div>
+          <ContactFormButton />
         </div>
 
-        <div className="hidden md:flex md:w-2/5 md:absolute md:right-0 md:top-0 md:bottom-0 items-center justify-center overflow-hidden rounded-r-3xl">
-          <img
-            src="https://cdn.poehali.dev/projects/a14c5cf7-de79-4bc2-8029-ff07f52b6a88/bucket/2ffe67f3-9a31-44c6-9d94-e086a269108b.png"
-            alt=""
-            className="w-full h-full object-cover opacity-20"
-          />
-          <div className="absolute inset-0 bg-gradient-to-l from-[#2ECC71]/15 to-transparent" />
+        <div className="hidden md:block absolute right-0 top-0 bottom-0 w-[42%] overflow-hidden rounded-r-3xl">
+          <div className="absolute inset-0 bg-[#f0faf4]" />
+          <CowPattern className="absolute inset-0 w-full h-full" opacity={0.85} color="#2ECC71" />
+          <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-white to-transparent z-10" />
         </div>
       </div>
     </section>
